@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:instagram_clone/ui/main/main_page.dart';
 
 void main() {
   runApp(const InstagramApp());
@@ -12,7 +13,7 @@ class InstagramApp extends StatelessWidget {
     return const CupertinoApp(
       title: "Instagram Clone",
       theme: CupertinoThemeData(),
-      home: Text(""),
+      home: MainPage(),
     );
   }
 }
